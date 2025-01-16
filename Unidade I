@@ -102,8 +102,3 @@ No arquivo Xib, adicione um UILabel e um UIButton, com o título "Clique aqui".
 Crie uma conexão de saída (IBOutlet) para o UILabel e uma ação (IBAction) para o UIButton que altere o texto do UILabel quando o botão for pressionado.
 No arquivo ViewController.swift, carregue o arquivo Xib e exiba-o quando o app for executado.
 Compile e execute o aplicativo no simulador.
-Critérios de Avaliação:
-
-O aluno foi capaz de criar e usar um arquivo Xib corretamente.
-O código do arquivo Xib foi conectado corretamente ao código Swift no ViewController.
-A funcionalidade do botão funciona sem problemas.
