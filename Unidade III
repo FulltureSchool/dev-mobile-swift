@@ -1,0 +1,129 @@
+Exercício 1: Introdução ao UIKit
+Objetivo: Introduzir o aluno ao framework UIKit e à criação de interfaces gráficas em iOS.
+
+Instruções:
+
+Crie um novo projeto no Xcode com o template "Single View App".
+No storyboard, adicione um UILabel que exibe a mensagem "Bem-vindo ao UIKit!" no centro da tela.
+Compile e execute o app no simulador, certificando-se de que o texto é exibido corretamente.
+Critérios de Avaliação:
+
+O aluno foi capaz de adicionar o UILabel corretamente.
+O texto foi exibido corretamente no simulador.
+Exercício 2: UIViewController e UIViewContainerView
+Objetivo: Ensinar o aluno a trabalhar com UIViewController e UIViewContainerView para criar hierarquias de telas.
+
+Instruções:
+
+Crie dois UIViewControllers: TelaPrincipalViewController e TelaSecundariaViewController.
+Na TelaPrincipalViewController, adicione um UIButton com o título "Ir para a próxima tela".
+Ao pressionar o botão, o aplicativo deve navegar para a TelaSecundariaViewController.
+Na TelaSecundariaViewController, adicione um UILabel com o texto "Você está na tela secundária".
+Implemente a navegação entre as telas usando o segue do Xcode.
+Critérios de Avaliação:
+
+O aluno foi capaz de criar e navegar entre os dois UIViewControllers corretamente.
+O texto foi exibido corretamente na tela secundária.
+Exercício 3: UILabel e UITextField
+Objetivo: Ensinar o aluno a trabalhar com o UILabel e o UITextField.
+
+Instruções:
+
+Crie uma interface que tenha:
+Um UILabel com o texto "Digite seu nome:".
+Um UITextField onde o usuário pode digitar seu nome.
+Um UIButton com o título "Mostrar saudação".
+Ao pressionar o botão, a aplicação deve exibir uma saudação personalizada com o nome digitado pelo usuário, por exemplo, "Olá, João!".
+Implemente essa funcionalidade no código.
+Critérios de Avaliação:
+
+O aluno foi capaz de criar a interface com o UILabel, UITextField e UIButton.
+O botão deve alterar o texto do UILabel com a saudação correta.
+Exercício 4: UISlider, UIStepper e UISwitch
+Objetivo: Ensinar o aluno a usar os componentes UISlider, UIStepper e UISwitch.
+
+Instruções:
+
+Crie uma interface com os seguintes componentes:
+Um UISlider que varia de 0 a 100.
+Um UIStepper que aumenta ou diminui um número entre 0 e 10.
+Um UISwitch que alterna entre os estados ligado e desligado.
+Ao mover o UISlider, o valor atual deve ser exibido em um UILabel.
+Ao alterar o valor do UIStepper, o valor atual deve ser exibido em outro UILabel.
+O UISwitch deve controlar a visibilidade do primeiro UILabel (se estiver ligado, o UILabel deve ser visível; se estiver desligado, o UILabel deve ficar invisível).
+Critérios de Avaliação:
+
+O aluno implementou corretamente o comportamento dos três componentes.
+O código e a interação entre os componentes foram realizados corretamente.
+Exercício 5: UIImageView e UIButton
+Objetivo: Ensinar o aluno a usar UIImageView e UIButton para exibir imagens e interagir com o usuário.
+
+Instruções:
+
+Adicione uma imagem à pasta de recursos do projeto (Assets).
+No storyboard, adicione um UIImageView e um UIButton.
+Ao pressionar o botão, altere a imagem exibida no UIImageView para uma nova imagem (que você também deve adicionar aos recursos do projeto).
+Implemente essa funcionalidade no código, garantindo que a imagem mude corretamente quando o botão for pressionado.
+Critérios de Avaliação:
+
+O aluno adicionou corretamente a imagem aos recursos.
+A imagem foi trocada corretamente ao pressionar o botão.
+Exercício 6: UIStackView
+Objetivo: Ensinar o aluno a usar o UIStackView para organizar componentes de maneira flexível.
+
+Instruções:
+
+Crie uma interface que tenha três UILabels, cada um com um texto diferente.
+Organize esses UILabels verticalmente usando um UIStackView.
+Adicione espaçamento entre os labels e centralize o UIStackView na tela.
+Compile e execute o aplicativo para garantir que os labels estejam organizados corretamente.
+Critérios de Avaliação:
+
+O aluno utilizou corretamente o UIStackView para organizar os componentes.
+Os UILabels foram exibidos corretamente na tela com espaçamento e centralização.
+Exercício 7: UITabBarController e UISegmentedControl
+Objetivo: Ensinar o aluno a usar o UITabBarController e o UISegmentedControl para navegação entre diferentes seções.
+
+Instruções:
+
+Crie um UITabBarController com duas abas.
+A primeira aba deve exibir uma tela com um UILabel com o texto "Primeira Tela".
+A segunda aba deve exibir uma tela com um UILabel com o texto "Segunda Tela".
+Crie um UISegmentedControl com duas opções: "Exibir Primeira Tela" e "Exibir Segunda Tela".
+O UISegmentedControl deve controlar a exibição da tela selecionada.
+Critérios de Avaliação:
+
+O aluno configurou corretamente o UITabBarController com as duas abas.
+O UISegmentedControl controla corretamente a exibição das telas.
+Exercício 8: UITableView
+Objetivo: Ensinar o aluno a trabalhar com UITableView para exibir uma lista de itens.
+
+Instruções:
+
+Crie uma interface com um UITableView que exibe uma lista de 5 itens (por exemplo: "Item 1", "Item 2", "Item 3", etc.).
+Ao selecionar um item da lista, mostre um UIAlertController com o nome do item selecionado.
+Implemente o comportamento de seleção de itens na tabela e exibição do alerta.
+Critérios de Avaliação:
+
+O aluno configurou o UITableView corretamente para exibir a lista de itens.
+O alerta foi exibido corretamente ao selecionar um item.
+Exercício 9: UICollectionView
+Objetivo: Ensinar o aluno a trabalhar com UICollectionView para exibir um conjunto de itens em um layout flexível.
+
+Instruções:
+
+Crie uma interface com um UICollectionView que exibe uma coleção de imagens (pelo menos 5 imagens).
+Use o layout padrão do UICollectionView para exibir as imagens em uma grade.
+Ao selecionar uma imagem, mostre o nome da imagem em um UIAlertController.
+Critérios de Avaliação:
+
+O aluno configurou o UICollectionView para exibir as imagens corretamente.
+O alerta com o nome da imagem foi exibido corretamente ao selecionar um item.
+Exercício 10: UITapGestureRecognizer
+Objetivo: Ensinar o aluno a usar gestos (gestures) com o UITapGestureRecognizer.
+
+Instruções:
+
+Crie uma interface com um UILabel exibindo o texto "Toque na tela".
+Adicione um UITapGestureRecognizer à tela que, quando detectado, altera o texto do UILabel para "Tela tocada!".
+Compile e execute o aplicativo para garantir que o gesto de toque esteja funcionando corretamente.
