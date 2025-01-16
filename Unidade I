@@ -1,0 +1,109 @@
+Exercícios
+Exercício 1: Instalação do Xcode
+Objetivo: Certificar-se de que o aluno consegue instalar o Xcode e configurar seu ambiente de desenvolvimento corretamente.
+
+Instruções:
+
+Baixe o Xcode na App Store ou no site da Apple.
+Instale o Xcode no seu computador.
+Após a instalação, abra o Xcode e verifique se ele está funcionando corretamente.
+Tire uma captura de tela da tela inicial do Xcode (com o nome do seu projeto, caso tenha criado um novo).
+Envie a captura de tela com a descrição de como foi o processo de instalação.
+Critérios de Avaliação:
+
+O aluno conseguiu realizar o download e instalação do Xcode corretamente.
+O aluno foi capaz de abrir o Xcode sem erros.
+Exercício 2: Explorando a Interface do Xcode
+Objetivo: Ensinar o aluno a navegar pelas principais seções da interface do Xcode.
+
+Instruções:
+
+Abra o Xcode e crie um novo projeto utilizando o template "App".
+Familiarize-se com os principais componentes da interface:
+Navegador de projetos
+Editor de código
+Barra de ferramentas
+Área de simulação
+Crie uma breve descrição sobre cada um desses componentes, explicando sua função dentro do Xcode.
+Envie um arquivo de texto (ou PDF) com suas descrições e uma captura de tela do Xcode com os componentes mencionados destacados.
+Critérios de Avaliação:
+
+O aluno descreveu corretamente as seções do Xcode.
+A captura de tela está legível e mostra claramente os componentes mencionados.
+Exercício 3: Trabalhando com o Interface Builder e o Storyboard
+Objetivo: Ensinar o aluno a usar o Interface Builder e o Storyboard para criar uma interface gráfica simples.
+
+Instruções:
+
+Abra o seu projeto no Xcode e acesse o arquivo Main.storyboard.
+No Storyboard, adicione:
+Um UILabel com o texto "Olá, Mundo!".
+Um UIButton abaixo do UILabel, com o título "Clique aqui".
+Alinhe os elementos de forma que a interface tenha uma aparência organizada.
+Crie uma ação para o UIButton que, ao ser pressionado, mude o texto do UILabel para "Você clicou no botão!".
+Compile e execute o aplicativo no simulador.
+Critérios de Avaliação:
+
+O aluno conseguiu adicionar os elementos corretamente no Storyboard.
+O aluno criou a ação para o botão que altera o texto do UILabel.
+A interface foi organizada e o app compilou sem erros.
+Exercício 4: Explorando o Playground
+Objetivo: Introduzir o aluno ao Playground para testar código Swift de maneira interativa.
+
+Instruções:
+
+Abra um novo Playground no Xcode (Arquivo > Novo > Playground).
+Escreva um código simples que declare duas variáveis:
+let nome = "João"
+let idade = 25
+Crie um comando que combine as variáveis para exibir uma mensagem como: "Meu nome é João e tenho 25 anos."
+Execute o Playground e verifique se a mensagem é exibida corretamente.
+Envie o código e uma captura de tela da execução do Playground.
+Critérios de Avaliação:
+
+O código funciona corretamente no Playground.
+A mensagem exibida está formatada corretamente.
+Exercício 5: Importando Recursos para o Projeto
+Objetivo: Ensinar o aluno a importar imagens e outros recursos para o projeto.
+
+Instruções:
+
+Encontre ou crie uma imagem no formato .png ou .jpg para importar ao seu projeto.
+Importe a imagem para a pasta "Assets" dentro do seu projeto no Xcode.
+Adicione uma UIImageView no Storyboard e configure-a para exibir a imagem que você importou.
+Compile e execute o app para garantir que a imagem é exibida corretamente no simulador.
+Critérios de Avaliação:
+
+O aluno importou a imagem corretamente para a pasta "Assets".
+A imagem foi exibida no app sem problemas.
+Exercício 6: Criando seu Primeiro App
+Objetivo: Criar um app simples que combine a criação de interface gráfica e lógica de código.
+
+Instruções:
+
+Crie um novo projeto no Xcode com o template "App".
+No Storyboard, adicione:
+Um UILabel com o texto inicial "Clique no botão".
+Um UIButton abaixo do UILabel, com o título "Mudar Texto".
+Crie uma ação para o UIButton que altere o texto do UILabel para "Texto alterado com sucesso!" quando o botão for pressionado.
+Compile e execute o app no simulador.
+Critérios de Avaliação:
+
+O aluno seguiu os passos para criar a interface com o botão e o UILabel.
+A funcionalidade de alteração do texto funciona corretamente.
+O app foi compilado sem erros.
+Exercício 7: Explorando o Storyboard e Xib
+Objetivo: Entender a diferença entre o Storyboard e o arquivo Xib e como usá-los.
+
+Instruções:
+
+Crie uma nova interface utilizando um arquivo Xib. (Arquivo > Novo > Arquivo > Interface > Xib).
+No arquivo Xib, adicione um UILabel e um UIButton, com o título "Clique aqui".
+Crie uma conexão de saída (IBOutlet) para o UILabel e uma ação (IBAction) para o UIButton que altere o texto do UILabel quando o botão for pressionado.
+No arquivo ViewController.swift, carregue o arquivo Xib e exiba-o quando o app for executado.
+Compile e execute o aplicativo no simulador.
+Critérios de Avaliação:
+
+O aluno foi capaz de criar e usar um arquivo Xib corretamente.
+O código do arquivo Xib foi conectado corretamente ao código Swift no ViewController.
+A funcionalidade do botão funciona sem problemas.
