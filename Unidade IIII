@@ -1,0 +1,92 @@
+Exercício 1: Preparando o Projeto
+Objetivo: Ensinar como preparar um projeto no Xcode, incluindo a estrutura básica e a criação de telas.
+
+Instruções:
+
+Crie um novo projeto no Xcode com o template "Single View App".
+No storyboard, crie duas telas (ViewControllers):
+Na primeira tela, adicione um UILabel com o texto "Tela Principal" e um UIButton com o título "Ir para a próxima tela".
+Na segunda tela, adicione um UILabel com o texto "Tela Secundária".
+Crie uma navegação entre as telas, de forma que, ao pressionar o botão da tela principal, o app navegue para a tela secundária.
+Critérios de Avaliação:
+
+O aluno conseguiu configurar as telas no storyboard.
+A navegação entre as telas foi implementada corretamente.
+Exercício 2: Montando uma Classe Genérica de Requisições
+Objetivo: Ensinar como montar uma classe genérica para fazer requisições HTTP usando URLSession.
+
+Instruções:
+
+Crie uma classe chamada APIService que tenha um método genérico para realizar requisições HTTP (GET e POST).
+O método deve receber a URL, os parâmetros (para POST) e um completion handler que retorne os dados ou o erro.
+Implemente a requisição GET para uma API fictícia, como https://jsonplaceholder.typicode.com/posts.
+No método de requisição, certifique-se de tratar erros adequados (ex: problemas de rede, dados inválidos).
+Teste a requisição utilizando o método GET e imprima os dados no console.
+Critérios de Avaliação:
+
+A classe APIService foi implementada corretamente com métodos genéricos.
+A requisição foi feita corretamente e os dados foram recebidos e impressos no console.
+Exercício 3: Integração com a Classe de Requisições
+Objetivo: Integrar a classe de requisições com uma tela do app.
+
+Instruções:
+
+Crie um ViewController chamado PostsViewController.
+Adicione um UITableView para exibir uma lista de posts.
+Na viewDidLoad(), faça uma requisição GET para https://jsonplaceholder.typicode.com/posts usando a classe APIService criada no exercício anterior.
+Ao receber os dados, exiba-os na tabela.
+Crie um modelo de dados para representar um post (com título, corpo e ID).
+Implemente o preenchimento da tabela com os dados recebidos da API.
+Critérios de Avaliação:
+
+A classe APIService foi corretamente integrada ao ViewController.
+A tabela foi preenchida com os dados recebidos da API.
+Exercício 4: Navegando Entre as Telas
+Objetivo: Aprender a navegação entre telas utilizando push e modal no iOS.
+
+Instruções:
+
+No ViewController anterior (onde você exibe a lista de posts), adicione uma funcionalidade para navegar para uma nova tela (PostDetailViewController) quando um item da tabela for selecionado.
+No PostDetailViewController, exiba os detalhes do post selecionado (título, corpo e ID).
+Use uma navegação do tipo push para realizar essa transição (caso o app esteja utilizando um UINavigationController).
+Além disso, adicione um botão na PostDetailViewController que, ao ser pressionado, exibe a tela principal novamente utilizando uma navegação modal.
+Critérios de Avaliação:
+
+O aluno configurou a navegação entre as telas corretamente.
+As informações do post selecionado foram exibidas corretamente.
+Exercício 5: Configurando o iTunes Connect
+Objetivo: Ensinar como configurar o iTunes Connect para publicar o aplicativo na App Store.
+
+Instruções:
+
+Acesse o Apple Developer Portal e crie um novo identificador de aplicativo (App ID).
+Em seguida, crie um novo certificado de distribuição no portal.
+Configure um novo arquivo .ipa no Xcode, gerando o arquivo de distribuição necessário para a App Store.
+Crie um novo aplicativo no iTunes Connect (agora chamado App Store Connect) e preencha as informações necessárias, como nome do app, descrição, screenshots e classificações.
+Faça o upload do arquivo .ipa gerado no Xcode para o App Store Connect.
+Critérios de Avaliação:
+
+O aluno conseguiu criar e configurar o App ID e o certificado de distribuição corretamente.
+O arquivo .ipa foi criado e enviado com sucesso ao App Store Connect.
+Exercício 6: Adicionando um Loader de Requisição
+Objetivo: Melhorar a experiência do usuário enquanto aguarda a resposta de uma requisição.
+
+Instruções:
+
+No PostsViewController, adicione um UIActivityIndicatorView (loader) no centro da tela.
+Faça com que o loader seja exibido enquanto a requisição de dados é feita, e desapareça quando os dados forem recebidos e a tabela for preenchida.
+Teste a funcionalidade, verificando que o loader aparece enquanto a requisição está em andamento e desaparece assim que os dados são carregados.
+Critérios de Avaliação:
+
+O loader foi implementado corretamente.
+O loader aparece enquanto os dados estão sendo carregados e desaparece quando a requisição é concluída.
+Exercício 7: Testando e Validando a Integração
+Objetivo: Ensinar o aluno a testar a integração com APIs e validar o retorno dos dados.
+
+Instruções:
+
+Crie testes unitários usando o framework XCTest para testar a classe APIService e suas requisições.
+Verifique se a resposta da API é válida (status code 200).
+Verifique se os dados retornados estão no formato esperado.
+Crie também um teste para garantir que a tabela de PostsViewController está sendo populada corretamente com os dados recebidos da API.
+Certifique-se de que todos os testes passem corretamente.
