@@ -1,0 +1,136 @@
+Exercício 1: Variáveis e Tipos de Variáveis
+Objetivo: Compreender como declarar e usar diferentes tipos de variáveis e constantes em Swift.
+
+Instruções:
+
+Crie um programa simples onde você declare:
+Uma variável do tipo Int chamada idade e atribua um valor a ela.
+Uma constante do tipo String chamada nome e atribua seu nome a ela.
+Uma variável do tipo Double chamada altura e atribua um valor a ela.
+Imprima esses valores na tela usando a função print().
+Critérios de Avaliação:
+
+O código compila corretamente.
+O aluno utilizou os tipos de dados corretamente e exibiu os valores corretamente.
+Exercício 2: Usando Optionals
+Objetivo: Ensinar o aluno a lidar com variáveis optionais em Swift.
+
+Instruções:
+
+Declare uma variável opcional do tipo String chamada endereco.
+Atribua um valor a ela e, em seguida, imprima o valor utilizando a segurança de opcional (if let ou guard let).
+Em seguida, defina a variável como nil e tente acessar o valor novamente, utilizando a verificação de opcional.
+Critérios de Avaliação:
+
+O aluno fez uso correto dos optionals e da verificação segura usando if let ou guard let.
+O código compila e executa sem erros.
+Exercício 3: Operadores Aritméticos
+Objetivo: Compreender como usar os operadores aritméticos básicos em Swift.
+
+Instruções:
+
+Declare duas variáveis do tipo Int chamadas a e b e atribua valores a elas.
+Realize as seguintes operações aritméticas e armazene os resultados em variáveis:
+Adição
+Subtração
+Multiplicação
+Divisão
+Resto da divisão inteira
+Imprima os resultados de cada operação.
+Critérios de Avaliação:
+
+O aluno realizou todas as operações aritméticas corretamente.
+Os resultados foram armazenados corretamente em variáveis e impressos na tela.
+Exercício 4: Operadores de Comparação
+Objetivo: Ensinar o aluno a usar os operadores de comparação em Swift.
+
+Instruções:
+
+Crie duas variáveis do tipo Int chamadas numero1 e numero2 e atribua valores a elas.
+Utilize os seguintes operadores de comparação para verificar a relação entre as variáveis:
+== (Igual a)
+!= (Diferente de)
+> (Maior que)
+< (Menor que)
+>= (Maior ou igual a)
+<= (Menor ou igual a)
+Para cada comparação, imprima se a expressão é verdadeira ou falsa.
+Critérios de Avaliação:
+
+O aluno utilizou corretamente os operadores de comparação.
+As comparações foram impressas corretamente.
+Exercício 5: Operador Condicional Ternário
+Objetivo: Compreender como usar o operador condicional ternário em Swift.
+
+Instruções:
+
+Declare uma variável booleana chamada isAluno e atribua um valor (true ou false) a ela.
+Crie uma variável mensagem que usará o operador ternário para atribuir:
+Se isAluno for true, a mensagem deve ser "Você é um aluno."
+Se isAluno for false, a mensagem deve ser "Você não é um aluno."
+Imprima a variável mensagem.
+Critérios de Avaliação:
+
+O operador ternário foi utilizado corretamente.
+A mensagem foi atribuída e impressa corretamente.
+Exercício 6: Estruturas de Condição: if e Switch
+Objetivo: Compreender o uso das estruturas de controle de fluxo if e switch.
+
+Instruções:
+
+Crie uma variável nota do tipo Int e atribua um valor de 0 a 10.
+Utilize a estrutura if para verificar se a nota é maior ou igual a 7. Se for, imprima "Aprovado". Caso contrário, imprima "Reprovado".
+Em seguida, crie um switch para verificar a nota e imprimir uma mensagem diferente para cada faixa de valores:
+Se a nota for de 9 a 10, imprima "Excelente".
+Se a nota for de 7 a 8, imprima "Bom".
+Se a nota for de 5 a 6, imprima "Regular".
+Se for abaixo de 5, imprima "Reprovado".
+Critérios de Avaliação:
+
+O aluno utilizou as estruturas if e switch corretamente.
+O programa imprime as mensagens corretas com base no valor da nota.
+Exercício 7: Estruturas de Repetição: For-in, While e Repeat-While
+Objetivo: Trabalhar com as estruturas de repetição em Swift.
+
+Instruções:
+
+Use a estrutura for-in para imprimir os números de 1 a 10.
+Utilize um while para imprimir os números de 1 a 5.
+Por fim, utilize um repeat-while para imprimir os números de 6 a 10.
+Critérios de Avaliação:
+
+O aluno usou corretamente as três estruturas de repetição.
+Os números foram impressos corretamente de acordo com cada estrutura.
+Exercício 8: Funções
+Objetivo: Criar e chamar funções em Swift.
+
+Instruções:
+
+Crie uma função chamada calcularArea que receba dois parâmetros do tipo Double (base e altura) e retorne a área de um triângulo.
+Chame a função calcularArea passando valores para base e altura e imprima o resultado.
+Critérios de Avaliação:
+
+A função foi criada corretamente e retornou o valor esperado.
+O código foi bem estruturado e sem erros.
+Exercício 9: Classes e Structs
+Objetivo: Criar e manipular classes e structs em Swift.
+
+Instruções:
+
+Crie uma struct chamada Carro com as propriedades modelo, ano e cor, todas do tipo String.
+Crie um método dentro da struct Carro que imprima as informações do carro.
+Crie uma instância de Carro e chame o método para imprimir as informações.
+Crie uma class chamada Pessoa com as propriedades nome e idade do tipo String e Int, respectivamente.
+Crie um método na classe Pessoa que imprima o nome e a idade.
+Crie uma instância da classe Pessoa e chame o método para imprimir as informações.
+Critérios de Avaliação:
+
+O aluno utilizou corretamente struct e class.
+As instâncias foram criadas e os métodos funcionaram como esperado.
+Exercício 10: Closures
+Objetivo: Compreender como usar closures em Swift.
+
+Instruções:
+
+Crie uma closure que recebe dois números inteiros e retorna a soma desses números.
+Chame a closure passando dois números e imprima o resultado.
